@@ -40,6 +40,12 @@ var arrayProjects = [
         subtitle: "Faça suas contagens de uma forma mais simples",
         gitRepository: "https://github.com/Hiago-Maitan/Super_Contador",
         webLink: "https://hiago-maitan.github.io/Super_Contador/"
+    },
+    {
+        nameProject: "Calculador de Media",
+        subtitle: "Calcule suas médias de uma maneira mais fácil e prática :)",
+        gitRepository: "https://github.com/Hiago-Maitan/Calculador_de_Media",
+        webLink: "https://hiago-maitan.github.io/Calculador_de_Media/"
     }
 ]
 
