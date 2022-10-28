@@ -13,16 +13,11 @@ body {
 }
 
 .resume-contents {
-    /* margin: 2rem auto; */
     display: flex;
-    /* grid-template-columns: repeat(7, 1fr); */
 }
 
 .left-section {
-    /* grid-column: span 2; */
     height: 100%;
-    /* background-color: yellow; */
-    /* margin: 5px; */
 }
 
 .contents {
@@ -30,21 +25,13 @@ body {
     width: 90%;
     height: 50%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     border-radius: 3px;
 }
 
 .porfile {
-    /* background-color: white;
-    width: 90%;
-    height: 50%; */
     text-align: center;
-    /* margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 2px; */
-    /* border-bottom: 2px solid #eeeeee; */
 }
 
 .profile-contents {
@@ -89,21 +76,13 @@ a:hover {
 }
 
 .right-section {
-    /* background-color: red;
-    margin-left: 20px;
-    width: -100%; */
-
     background-color: #212529;
     margin-left: 15px;
     width: 830px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-
-    /* height: 50%; */
-    /* margin-bottom: 50px; */
     border-radius: 3px;
-    /* max-width: 430%; */
 }
 
 .projects-container {
@@ -116,7 +95,8 @@ a:hover {
     width: 400px;
     height: 20%;
     padding: 5px;
-    margin-bottom: -15px;
+    margin-bottom: 2px;
+    margin-top: 50px;
 }
 
 .project-title {

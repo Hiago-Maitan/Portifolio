@@ -35,14 +35,21 @@ var arrayProjects = [
         gitRepository: "https://github.com/Hiago-Maitan/RocketCoffee",
         webLink: "https://bright-chimera-e4e454.netlify.app/"
     },
+    {
+        nameProject: "Super Contador",
+        subtitle: "Faça suas contagens de uma forma mais simples",
+        gitRepository: "https://github.com/Hiago-Maitan/Super_Contador",
+        webLink: "https://hiago-maitan.github.io/Super_Contador/"
+    }
 ]
 
 for (var indice = 0; indice < arrayProjects.length; indice++) {
     var resultado = document.getElementById("resultado")
-    resultado.innerHTML += `<div class="project-github contents">
+    resultado.innerHTML += `
+    <a href="${arrayProjects[indice].webLink}"><div class="project-github contents">
     <h2 class="project-title">${arrayProjects[indice].nameProject}</h2>
     <p class="about-project">${arrayProjects[indice].subtitle}</p>
     <a href="${arrayProjects[indice].gitRepository}"><button type="button"
     class="project-weblink">Acessar repositório</button></a>
-    </div>`
+    </div></a>`
 }
